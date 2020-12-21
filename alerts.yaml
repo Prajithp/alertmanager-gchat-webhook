@@ -1,0 +1,6 @@
+channels:
+  - name: devops
+    url: https://chat.googleapis.com/v1/xxxxx
+    labels:
+      - alertname
+      - cluster
