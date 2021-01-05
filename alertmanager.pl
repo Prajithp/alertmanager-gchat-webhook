@@ -4,19 +4,10 @@ use strict;
 
 package Card;
 
-use Moose;
+use Mojo::Base -base;
 
-has texts => (
-    is       => 'rw',
-    isa      => 'ArrayRef[Str]',
-    required => 1
-);
-
-has labels => (
-    is       => 'rw',
-    isa      => 'HashRef',
-    required => 1
-);
+has texts => sub { [] };
+has labels => sub { +{} };
 
 sub render {
     my $self = shift;
