@@ -15,7 +15,7 @@ Make sure you have perl version >= 5.30.
 ```
 cpanm --installdeps .
 ```
-start the application with hyponated
+start the application with hypnotoad
 ```
 hypnotoad alertmanager.pl
 ```
